@@ -13,6 +13,7 @@
 		73CE788026EADB2D00993DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CE787F26EADB2D00993DEC /* Preview Assets.xcassets */; };
 		73CE788D26EADC2500993DEC /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 73CE788C26EADC2500993DEC /* quotes.json */; };
 		73CE788F26EB093B00993DEC /* quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE788E26EB093B00993DEC /* quote.swift */; };
+		73CE789126EB0ADB00993DEC /* quoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE789026EB0ADB00993DEC /* quoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		73CE788126EADB2D00993DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73CE788C26EADC2500993DEC /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		73CE788E26EB093B00993DEC /* quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quote.swift; sourceTree = "<group>"; };
+		73CE789026EB0ADB00993DEC /* quoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		73CE788A26EADBD200993DEC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				73CE789026EB0ADB00993DEC /* quoteModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				73CE787B26EADB2900993DEC /* ContentView.swift in Sources */,
 				73CE787926EADB2900993DEC /* M2C16_QuotesApp.swift in Sources */,
+				73CE789126EB0ADB00993DEC /* quoteModel.swift in Sources */,
 				73CE788F26EB093B00993DEC /* quote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
